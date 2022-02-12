@@ -11,4 +11,4 @@ cmake   -DCMAKE_CXX_COMPILER=clang++     \
 		-DLLVM_INCLUDE_EXAMPLES=OFF    \
 		-DLLVM_INCLUDE_BENCHMARKS=OFF  \
 		-DLLVM_ENABLE_PROJECTS="clang" \
-		-Wno-dev -G Ninja ../llvmclear
+		-Wno-dev -G Ninja ../llvm
